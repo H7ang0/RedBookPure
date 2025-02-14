@@ -1,0 +1,114 @@
+小红书主题包制作指南
+====================
+
+一、主题包存放位置
+-----------------
+越狱设备：/var/mobile/Documents/DisCoverTheme/主题包名称/
+非越狱设备：文件-我的iPhone-小红书-DisCoverTheme/主题包名称/
+
+二、必需文件
+-----------
+预览图标：
+- 文件名：icon.png
+- 尺寸：120x120像素(@2x)，180x180像素(@3x)
+- 格式：PNG格式，透明背景
+
+三、支持自定义的图标及尺寸
+------------------------
+1. 底部导航栏（TabBar）
+   - 首页图标：
+     tab_home@2x.png (50x50px)
+     tab_home@3x.png (75x75px)
+   - 商城图标：
+     tab_shop@2x.png (50x50px)
+     tab_shop@3x.png (75x75px)
+   - 发布按钮：
+     tab_post@2x.png (65x65px)
+     tab_post@3x.png (98x98px)
+   - 消息图标：
+     tab_message@2x.png (50x50px)
+     tab_message@3x.png (75x75px)
+   - 我的图标：
+     tab_profile@2x.png (50x50px)
+     tab_profile@3x.png (75x75px)
+
+2. 互动按钮（交互图标）
+   - 点赞默认/选中：
+     like_normal@2x.png (44x44px)
+     like_normal@3x.png (66x66px)
+     like_selected@2x.png (44x44px)
+     like_selected@3x.png (66x66px)
+   - 收藏默认/选中：
+     collect_normal@2x.png (44x44px)
+     collect_normal@3x.png (66x66px)
+     collect_selected@2x.png (44x44px)
+     collect_selected@3x.png (66x66px)
+   - 评论图标：
+     comment_icon@2x.png (44x44px)
+     comment_icon@3x.png (66x66px)
+   - 分享图标：
+     share_icon@2x.png (44x44px)
+     share_icon@3x.png (66x66px)
+
+3. 顶部导航栏（NavBar）
+   - 菜单图标：
+     more_menu@2x.png (44x44px)
+     more_menu@3x.png (66x66px)
+   - 搜索图标：
+     search_icon@2x.png (44x44px)
+     search_icon@3x.png (66x66px)
+   - 返回图标：
+     nav_back@2x.png (44x44px)
+     nav_back@3x.png (66x66px)
+
+四、制作要求
+-----------
+1. 尺寸说明
+   - @2x：适用于iPhone 6/7/8等常规屏幕
+   - @3x：适用于iPhone Plus/X/11等高清屏幕
+   - 所有图标必须同时提供@2x和@3x两个版本
+
+2. 格式要求
+   - 文件格式：必须是PNG
+   - 背景：必须透明
+   - 命名：严格区分大小写
+   - 图标内容建议控制在中心70%范围内
+   - 预留30%边距确保视觉协调
+
+五、制作步骤
+-----------
+1. 创建主题文件夹
+2. 准备120x120的主题预览图标
+3. 按照尺寸规范制作各个图标
+4. 导出@2x和@3x两个版本
+5. 严格按命名规范保存
+6. 将主题包放入指定目录
+
+六、注意事项
+-----------
+1. 主题包名称要简单，不含特殊字符
+2. 所有图标必须是PNG格式且背景透明
+3. 严格遵守图标尺寸规范
+4. 应用主题后需要重启小红书
+5. 建议备份原始图标
+
+七、常见问题
+-----------
+1. 主题不生效？
+   - 检查图标命名是否正确
+   - 确认图标格式为PNG
+   - 验证图标尺寸是否符合规范
+   - 重启小红书试试
+
+2. 图标显示异常？
+   - 检查图标是否严格按照尺寸规范
+   - 确认图标背景是否完全透明
+   - 验证是否同时提供@2x和@3x版本
+   - 检查图标内容是否居中放置
+
+3. 找不到主题？
+   - 确认主题包路径是否正确
+   - 检查文件夹权限设置
+   - 验证文件夹名称是否包含特殊字符
+
+温馨提示：首次制作主题时，建议先制作一个图标进行测试，确认尺寸和效果正确后再制作其他图标。 

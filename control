@@ -1,0 +1,9 @@
+Package: com.hyangu.redbookpure
+Name: RedBookPure
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Description: 小红书净化 - 让小红书更清爽的插件
+Maintainer: Hyangu
+Author: Hyangu
+Section: Tweaks
+Depends: ${ORION}, firmware (>= 14.0) 
